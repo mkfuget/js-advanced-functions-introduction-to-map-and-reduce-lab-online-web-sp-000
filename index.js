@@ -37,3 +37,15 @@ function reduceToTotal(sourceArray, startingPoint=0)
   }
   return out+startingPoint;
 }
+function reduceToAllTrue(sourceArray)
+{
+  let out  = true;
+  for(let i=0; i<sourceArray.length; i++)
+  {
+    if(!sourceArray[i])
+    {
+      out = false;
+    }
+  }
+  return out;
+}
