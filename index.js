@@ -28,12 +28,12 @@ function mapToSquare(array)
   return array;
 }
 
-function reduceToTotal(sourceArray, startingPoint = 0)
+function reduceToTotal(sourceArray, startingPoint)
 {
   let out  = 0;
-  for(let i=startingPoint; i<sourceArray.length; i++)
+  for(let i=0; i<sourceArray.length; i++)
   {
     out+=sourceArray[i];
   }
-  return out;
+  return out+startingPoint;
 }
