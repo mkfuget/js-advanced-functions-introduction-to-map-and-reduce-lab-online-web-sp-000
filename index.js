@@ -6,7 +6,7 @@ function mapToNegativize(array)
     if(array(i) > 0)
     {
       array[i]*=-1;
-    } 
+    }
   }
   return array;
 }
