@@ -7,3 +7,7 @@ function mapToNegativize(array)
   }
   return array;
 }
+function mapToNoChange(array)
+{
+  return array;
+}
